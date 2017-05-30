@@ -1,0 +1,278 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+  line-height: 1.4;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  background: url(../images/glasses-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 31rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+li {
+  display: inline-flex;
+}
+
+a {
+  text-decoration: none;
+  margin: 1rem 2rem 1rem 0;
+  color: white
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-weight: bold;
+  color: white;
+  font-size: 1rem;
+}
+
+.nav-container {
+  width: 960px;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  color: white;
+}
+
+.phone {
+  display: none;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+.overlay-container {
+  width: 960px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.overlay {
+  background-color: white;
+  padding: 1.5rem 5rem;
+  margin-top: 10rem;
+  margin-right: -2rem;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  width: 960px;
+}
+
+.icon {
+  margin: 3rem;
+  width: 5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paper {
+  width: 3.5rem;
+}
+
+.ruler {
+  width: 5rem;
+}
+
+.secondary-content-container {
+  width: 960px;
+  display: flex;
+  justify-content: center;
+}
+
+.secondary-content {
+  width: 35%;
+  margin: 0 2.5%;
+}
+
+.secondary-banner {
+  background-color: cadetblue;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+  width: 10rem;
+}
+
+.footer-content {
+  width: 960px;
+  background-color: azure;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-logo {
+  display: inline-flex;
+  align-items: center;
+}
+
+.footer-logo img {
+  height: 1.5rem;
+  margin: 4rem 1rem 4rem 4rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  header {
+    height: 22rem;
+  }
+
+  .footer-content {
+    width: 100%;
+  }
+
+
+  .nav-container {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .overlay {
+    background-color: white;
+    padding: 1rem 4rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 1.33rem;
+    line-height: 1.2;
+  }
+
+  .phone {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width:  720px) {
+  header {
+    height: 17rem;
+  }
+
+  .logo p {
+    display: none;
+  }
+
+  .phone {
+    display: block;
+  }
+
+  .full {
+    display: none;
+  }
+
+  .overlay-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 9rem;
+  }
+
+  .overlay {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding: 1rem 0px;
+    margin-right: 0px;
+    margin-top: 0rem;
+  }
+
+  .icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 960px;
+    margin-top: 2.37rem;
+  }
+
+  .icon {
+    margin-top: 1.54rem;
+    margin-bottom: 0;
+  }
+
+  .icon p {
+    font-size: 0.77rem;
+    margin-top: 1.54rem;
+  }
+
+  .secondary-content-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.37rem;
+  }
+
+  .secondary-content {
+    width: 100%;
+    margin: 0 0 4rem 0;
+  }
+
+  .secondary-banner {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .secondary-txt p {
+    font-size: 0.77rem;
+    margin: auto 1rem;
+  }
+
+  footer {
+    margin-top: 0;
+  }
+
+  .footer-content {
+    justify-content: center;
+  }
+
+  .footer-logo p {
+    display: none;
+  }
+}
